@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0.9s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.store-name{
+    margin-left: 20px;
+    font-family: cursive;
+    color: orange;
+}
+.address{
+    width: 35px;
+    height: 35px;
+    margin-left: 100px;
+    }
+.store-address{
+    color: orange;
+    margin-left: 20px;
+    font-family: fantasy;
+}
+.phone{
+    width: 25px;
+    height: 25px;
+    margin-left: 100px;
+}
+.store-phone{
+    text-decoration: none;
+    font-family: fantasy;
+    color: orange;
+}
+.carousel,.carousel-item{
+    width: 100%;
+    height: auto;
+}
+.about-div{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.about{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-text{
+    color: orange;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.store-map{
+    border: 2px solid orange;
+    margin-top: 50px;
+}
+.map{
+    width: 100%;
+    height: 450px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    font-size: 20px;
+    font-family: monospace;
+}
+.loading{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading img{
+width: 550px;
+height: 550px;
+}
+@media(max-width: 844px){
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+    .store-name{
+        font-size: 15px
+    }
+    .phone{
+        display: none;
+    }
+    .store-phone{
+        margin-left: 10px;
+       
+    }
+    .address{
+        display: none;
+    }
+    .store-address{
+        font-size: 15px;
+    }
+    .about-img{
+        width: 150px;
+        height: 150px;
+    }
+    .about-text{
+        font-size: 12px;
+    }
+    .about{
+        width: 100%;
+    }
+    .about-div{
+        height: 300px;
+    }
+}
